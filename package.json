@@ -20,6 +20,7 @@
   "dependencies": {
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "ioredis": "^4.9.0"
+    "ioredis": "^4.9.0",
+    "redis-commands": "^1.4.0"
   }
 }

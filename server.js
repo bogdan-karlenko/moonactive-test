@@ -10,5 +10,6 @@ const server = http.createServer(app);
 
 server.listen(port, () => {
     console.log(`----- Server is listening on port ${port} -----`);
+    // workers will do fine here, but ticking is the easiest option I see for one thread
     setInterval(run, 1000);
 });
